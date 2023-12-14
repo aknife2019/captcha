@@ -15,7 +15,7 @@ php验证码类，支持字母数字 、 运算符、中文验证码
 
 
 ```shell
-composer require aknife/captcha
+composer require yonghua4413/captcha
 ```
 
 ## 快速入门
@@ -24,7 +24,7 @@ composer require aknife/captcha
 
 ```php
 
-use Aknife\captcha;
+use Yonghua4413\captcha;
 
 // 验证码配置
 $config = [
