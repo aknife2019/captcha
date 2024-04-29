@@ -1,0 +1,23 @@
+{
+    "name": "aknife/captcha",
+    "homepage": "https://aknife.cn",
+    "description": "php验证码类,包含字母数字验证码，运算验证码,中文验证码",
+    "keywords": ["Captcha","验证码","图形验证码","字母数字验证码","中文验证码","加减剩除验证码"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "阿刀",
+            "email": "aknife@live.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aknife\\": "src/"
+        }
+    }
+}
